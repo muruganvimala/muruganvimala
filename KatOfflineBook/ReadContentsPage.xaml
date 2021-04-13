@@ -1,0 +1,106 @@
+﻿<Page x:Class="Pro1.ReadContentsPage"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:Pro1"
+      xmlns:wf="clr-namespace:System.Windows.Forms;assembly=System.Windows.Forms"
+      mc:Ignorable="d"
+      Title="ReadContentsPage" d:DesignHeight="300" Width="auto" Loaded="Page_Loaded">
+
+    <Grid>
+        <DockPanel>
+            <Grid  Name="leftgrid" Background="#FFF1F1F1" Width="300" Height="auto" DockPanel.Dock="Left">
+               
+                <ScrollViewer VerticalScrollBarVisibility="Auto" Margin="10,0,10,0" Name="videolist" >
+                    <WindowsFormsHost Height="auto"  Width="280" Name="myvideobrw">
+                        <wf:WebBrowser  Name="myvideoWebBrowser" DocumentCompleted="WebBrowser_DocumentCompleted" />
+                    </WindowsFormsHost>
+
+                </ScrollViewer>
+            </Grid>
+            <DockPanel  DockPanel.Dock="Left">
+                <ToolBar DockPanel.Dock="Top" Height="32">
+                    <Button  Width="40" Height="30">
+                        <Button.Background>
+                            <ImageBrush ImageSource="Img/arrow_left.png"/>
+                        </Button.Background>
+
+                        <!--<Image Source="/WpfTutorialSamples;component/Images/arrow_left.png" Width="16" Height="16" />-->
+                    </Button>
+                    <Button  Width="40" Height="30">
+                        <Button.Background>
+                            <ImageBrush ImageSource="Img/arrow_right.png"/>
+                        </Button.Background>
+
+                    </Button>
+                    <Separator />
+                    <TextBox Name="searchtxt" Width="220" Height="30" HorizontalAlignment="Right" ></TextBox>
+                    <Button x:Name="searchbutton" Content="Search" Height="26.6666666666667" VerticalAlignment="Top" Width="75" Click="searchbutton_Click"/>
+                </ToolBar>
+                <WindowsFormsHost Height="600" VerticalAlignment="Top" Width="600" Name="wfhSample">
+                    <wf:WebBrowser  Name="myWebBrowser" DocumentCompleted="WebBrowser_DocumentCompleted_1"/>
+                </WindowsFormsHost>
+
+                <!--<WebBrowser Name="wbcontent" Width="700" Height="auto"  LoadCompleted="wbcontent_LoadCompleted" />-->
+                
+            </DockPanel>
+           
+            <ScrollViewer VerticalScrollBarVisibility="Auto" Margin="10,0,10,0" DockPanel.Dock="Right">
+                <Grid  Name="rightgrid" Background="White"  Height="auto" Width="250"  DockPanel.Dock="Right">
+                    <StackPanel>
+                        <Label Name="tochead" VerticalAlignment="Top" FontSize="16" Background="#FFD7E4E3">Index</Label>
+                        <ListView Name="tocdataGrid">
+                            <ListView.View>
+                                <GridView>
+                                    <GridView.ColumnHeaderContainerStyle>
+                                        <Style>
+                                            <Setter Property="FrameworkElement.Visibility" Value="Collapsed"/>
+                                        </Style>
+                                    </GridView.ColumnHeaderContainerStyle>
+                                    <GridViewColumn Header="Name" Width="120" DisplayMemberBinding="{Binding IndexName}" />
+                                </GridView>
+                            </ListView.View>
+                            <ListView.ItemContainerStyle>
+                                <Style TargetType="ListViewItem">
+                                    <EventSetter Event="PreviewMouseLeftButtonDown" Handler="ListViewItem_PreviewMouseLeftButtonDown" />
+                                </Style>
+                            </ListView.ItemContainerStyle>
+                            <ListView.ItemTemplate>
+                                <DataTemplate>
+                                    <TextBlock Text="{Binding Path=.}" TextWrapping="Wrap"></TextBlock>
+                                </DataTemplate>
+                            </ListView.ItemTemplate>
+                            <ListView.GroupStyle>
+                                <GroupStyle>
+                                    <GroupStyle.ContainerStyle>
+                                        <Style TargetType="{x:Type GroupItem}">
+                                            <Setter Property="Template">
+                                                <Setter.Value>
+                                                    <ControlTemplate>
+                                                        <Expander IsExpanded="True">
+                                                            <Expander.Header>
+                                                                <StackPanel >
+                                                                    <TextBlock Text="{Binding Name}" FontWeight="DemiBold" Foreground="DarkSlateGray" FontSize="20" VerticalAlignment="Bottom" />
+                                                                    <!--<TextBlock Text="{Binding ItemCount}" FontSize="18" Foreground="Gray" FontWeight="Bold" FontStyle="Italic" Margin="10,0,0,0" VerticalAlignment="Bottom" />-->
+                                                                    <!--<TextBlock Text=" record(s)" FontSize="16" Foreground="Gray" FontStyle="Italic" VerticalAlignment="Bottom" />-->
+                                                                </StackPanel>
+                                                            </Expander.Header>
+                                                            <ItemsPresenter />
+                                                        </Expander>
+                                                    </ControlTemplate>
+                                                </Setter.Value>
+                                            </Setter>
+                                        </Style>
+                                    </GroupStyle.ContainerStyle>
+                                </GroupStyle>
+                            </ListView.GroupStyle>
+                        </ListView>
+                    </StackPanel>
+                </Grid>
+            </ScrollViewer>
+            
+        </DockPanel>
+       
+    </Grid>
+</Page>

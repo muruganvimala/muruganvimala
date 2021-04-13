@@ -1,0 +1,347 @@
+[
+    {
+        "SubjectId": "600a61654023ca03ccc4c811",
+        "Units": [
+            {
+                "UnitId": "600a61814023ca03ccc4c812",
+                "UnitName": "Introduction",
+                "SessionDetails": [
+                    {
+                        "SessionId": "600a61b34023ca03ccc4c813",
+                        "SessionName": "About the Book"
+                    },
+                    {
+                        "SessionId": "6023a07a0c23b72d7cd86b52",
+                        "SessionName": "Table Of Content"
+                    }
+                ]
+            },
+            {
+                "UnitId": "600a6d952f121c0b94991b55",
+                "UnitName": "Unit 6 - Reproduction in Plants",
+                "SessionDetails": [
+                    {
+                        "SessionId": "600a6ddb2f121c0b94991b56",
+                        "SessionName": "Chapter 1 - A sexual and Sexual Reproduction in plants"
+                    },
+                    {
+                        "SessionId": "600a6deb2f121c0b94991b57",
+                        "SessionName": "Session - 2"
+                    },
+                    {
+                        "SessionId": "600a6df42f121c0b94991b58",
+                        "SessionName": "Session - 3"
+                    },
+                    {
+                        "SessionId": "600a6df82f121c0b94991b59",
+                        "SessionName": "Session - 4"
+                    },
+                    {
+                        "SessionId": "600a6e052f121c0b94991b5a",
+                        "SessionName": "Session - 5"
+                    },
+                    {
+                        "SessionId": "600a6e0b2f121c0b94991b5b",
+                        "SessionName": "Session - 6"
+                    },
+                    {
+                        "SessionId": "600a6e112f121c0b94991b5c",
+                        "SessionName": "Session - 7"
+                    },
+                    {
+                        "SessionId": "600a6e152f121c0b94991b5d",
+                        "SessionName": "Session - 8"
+                    },
+                    {
+                        "SessionId": "600a6e1f2f121c0b94991b5e",
+                        "SessionName": "Session - 9"
+                    },
+                    {
+                        "SessionId": "600a6e272f121c0b94991b5f",
+                        "SessionName": "Session - 10"
+                    }
+                ]
+            },
+            {
+                "UnitId": "600a7d712f121c0b94991c12",
+                "UnitName": "Unit 7 - Genetics",
+                "SessionDetails": [
+                    {
+                        "SessionId": "600a7d8f2f121c0b94991c13",
+                        "SessionName": "Chapter 2 - Classical Genetics"
+                    },
+                    {
+                        "SessionId": "600a7d9a2f121c0b94991c14",
+                        "SessionName": "Session - 2"
+                    },
+                    {
+                        "SessionId": "600a7da32f121c0b94991c15",
+                        "SessionName": "Session - 3"
+                    },
+                    {
+                        "SessionId": "600a7dac2f121c0b94991c16",
+                        "SessionName": "Session - 4"
+                    },
+                    {
+                        "SessionId": "600a7db92f121c0b94991c17",
+                        "SessionName": "Session - 5"
+                    },
+                    {
+                        "SessionId": "600a7dc32f121c0b94991c18",
+                        "SessionName": "Session - 6"
+                    },
+                    {
+                        "SessionId": "600a7dd82f121c0b94991c1a",
+                        "SessionName": "Chapter 3 - Chromosomal Basis of Inheritance"
+                    },
+                    {
+                        "SessionId": "6017ac7718cff53df86c95fb",
+                        "SessionName": "Session - 8"
+                    },
+                    {
+                        "SessionId": "6017ac8b18cff53df86c95fc",
+                        "SessionName": "Session - 9"
+                    },
+                    {
+                        "SessionId": "6017aca418cff53df86c95fd",
+                        "SessionName": "Session - 10"
+                    },
+                    {
+                        "SessionId": "6017acbb18cff53df86c95fe",
+                        "SessionName": "Session - 11"
+                    },
+                    {
+                        "SessionId": "6017accc18cff53df86c95ff",
+                        "SessionName": "Session - 12"
+                    }
+                ]
+            },
+            {
+                "UnitId": "6014ee7118cff53df86c8de9",
+                "UnitName": "Unit 8 - Biotechnology",
+                "SessionDetails": [
+                    {
+                        "SessionId": "6014eec418cff53df86c8dea",
+                        "SessionName": "Chapter 4 - Principles and Processes of Biotechnology"
+                    },
+                    {
+                        "SessionId": "6014eed318cff53df86c8deb",
+                        "SessionName": "Session - 2"
+                    },
+                    {
+                        "SessionId": "6014f3a318cff53df86c8e07",
+                        "SessionName": "Session - 3"
+                    },
+                    {
+                        "SessionId": "6014f3c218cff53df86c8e0a",
+                        "SessionName": "Session - 4"
+                    },
+                    {
+                        "SessionId": "6014f3d718cff53df86c8e0c",
+                        "SessionName": "Session - 5"
+                    },
+                    {
+                        "SessionId": "6014f3e918cff53df86c8e0e",
+                        "SessionName": "Session - 6"
+                    },
+                    {
+                        "SessionId": "6014f40b18cff53df86c8e0f",
+                        "SessionName": "Session - 7"
+                    },
+                    {
+                        "SessionId": "6014f42318cff53df86c8e11",
+                        "SessionName": "Session - 8"
+                    },
+                    {
+                        "SessionId": "6014f43818cff53df86c8e13",
+                        "SessionName": "Session - 9"
+                    },
+                    {
+                        "SessionId": "6014f45118cff53df86c8e16",
+                        "SessionName": "Session - 10"
+                    },
+                    {
+                        "SessionId": "6018e14418cff53df86c9a9f",
+                        "SessionName": "Session - 11"
+                    },
+                    {
+                        "SessionId": "6018e1b018cff53df86c9aa0",
+                        "SessionName": "Chapter 5 - Plant Tissue Culture "
+                    },
+                    {
+                        "SessionId": "6018e1d318cff53df86c9aa1",
+                        "SessionName": "Session - 13"
+                    },
+                    {
+                        "SessionId": "6018e1e118cff53df86c9aa2",
+                        "SessionName": "Session - 14"
+                    },
+                    {
+                        "SessionId": "6018e1f818cff53df86c9aa3",
+                        "SessionName": "Session - 15"
+                    },
+                    {
+                        "SessionId": "6018e20418cff53df86c9aa4",
+                        "SessionName": "Session - 16"
+                    }
+                ]
+            },
+            {
+                "UnitId": "6014f46218cff53df86c8e17",
+                "UnitName": "Unit 9 - Plant Ecology",
+                "SessionDetails": [
+                    {
+                        "SessionId": "6014f55c18cff53df86c8e28",
+                        "SessionName": " Chapter 6 -  Principles of Ecology"
+                    },
+                    {
+                        "SessionId": "6014f58718cff53df86c8e2d",
+                        "SessionName": "Session - 2"
+                    },
+                    {
+                        "SessionId": "6014f5c718cff53df86c8e30",
+                        "SessionName": "Session - 3"
+                    },
+                    {
+                        "SessionId": "6014f5cf18cff53df86c8e31",
+                        "SessionName": "Session - 4"
+                    },
+                    {
+                        "SessionId": "6014f5d818cff53df86c8e32",
+                        "SessionName": "Session - 5"
+                    },
+                    {
+                        "SessionId": "6014f62918cff53df86c8e33",
+                        "SessionName": "Session - 6"
+                    },
+                    {
+                        "SessionId": "6014f62f18cff53df86c8e34",
+                        "SessionName": "Session - 7"
+                    },
+                    {
+                        "SessionId": "6014f63518cff53df86c8e35",
+                        "SessionName": "Session - 8"
+                    },
+                    {
+                        "SessionId": "6014f63b18cff53df86c8e36",
+                        "SessionName": "Session - 9"
+                    },
+                    {
+                        "SessionId": "6018f05918cff53df86c9b60",
+                        "SessionName": "Chapter 7 - Ecosystem"
+                    },
+                    {
+                        "SessionId": "6018f07018cff53df86c9b61",
+                        "SessionName": "Session - 11"
+                    },
+                    {
+                        "SessionId": "6018f09018cff53df86c9b62",
+                        "SessionName": "Session - 12"
+                    },
+                    {
+                        "SessionId": "6018f09618cff53df86c9b63",
+                        "SessionName": "Session - 13"
+                    },
+                    {
+                        "SessionId": "6018f09c18cff53df86c9b64",
+                        "SessionName": "Session - 14"
+                    },
+                    {
+                        "SessionId": "6018f0aa18cff53df86c9b65",
+                        "SessionName": "Session - 15"
+                    },
+                    {
+                        "SessionId": "6018f0af18cff53df86c9b76",
+                        "SessionName": "Session - 16"
+                    },
+                    {
+                        "SessionId": "601a655a18cff53df86ca5d3",
+                        "SessionName": " Chapter 8 -  Environmental Issues"
+                    },
+                    {
+                        "SessionId": "601a669818cff53df86ca5f6",
+                        "SessionName": "Session - 18\t"
+                    },
+                    {
+                        "SessionId": "601a66da18cff53df86ca5f7",
+                        "SessionName": "Session - 19\t"
+                    },
+                    {
+                        "SessionId": "601a66e518cff53df86ca5f8",
+                        "SessionName": "Session - 20\t"
+                    },
+                    {
+                        "SessionId": "601a66ec18cff53df86ca5f9",
+                        "SessionName": "Session - 21\t"
+                    },
+                    {
+                        "SessionId": "601a66fc18cff53df86ca60c",
+                        "SessionName": "Session - 22\t"
+                    }
+                ]
+            },
+            {
+                "UnitId": "6014fcb518cff53df86c8e89",
+                "UnitName": "Unit 10 - Economic Botany",
+                "SessionDetails": [
+                    {
+                        "SessionId": "6014fcc618cff53df86c8e8b",
+                        "SessionName": "Chapter 9 -  Plant Breeding"
+                    },
+                    {
+                        "SessionId": "6014fcd518cff53df86c8e8c",
+                        "SessionName": "Session - 2"
+                    },
+                    {
+                        "SessionId": "6014fce918cff53df86c8e8e",
+                        "SessionName": "Session - 3"
+                    },
+                    {
+                        "SessionId": "6014fd0118cff53df86c8e93",
+                        "SessionName": "Session - 4"
+                    },
+                    {
+                        "SessionId": "6014fd1418cff53df86c8e95",
+                        "SessionName": "Session - 5"
+                    },
+                    {
+                        "SessionId": "6014fd6718cff53df86c8eac",
+                        "SessionName": "Session - 6"
+                    },
+                    {
+                        "SessionId": "6014fd8618cff53df86c8eae",
+                        "SessionName": "Chapter 10 - Economically Useful Plants and Entrepreneurial Botany"
+                    },
+                    {
+                        "SessionId": "60179c0a18cff53df86c92c0",
+                        "SessionName": "Session -8"
+                    },
+                    {
+                        "SessionId": "60179c2618cff53df86c92c2",
+                        "SessionName": "Session - 9"
+                    },
+                    {
+                        "SessionId": "60179c3f18cff53df86c92c3",
+                        "SessionName": "Session -10"
+                    },
+                    {
+                        "SessionId": "60179c7518cff53df86c92cf",
+                        "SessionName": "Session - 11"
+                    },
+                    {
+                        "SessionId": "60179c8518cff53df86c92d5",
+                        "SessionName": "Session - 12"
+                    },
+                    {
+                        "SessionId": "60179c9218cff53df86c92da",
+                        "SessionName": "Session - 13"
+                    },
+                    {
+                        "SessionId": "60179c9c18cff53df86c92df",
+                        "SessionName": "Session - 14"
+                    }
+                ]
+            }
+        ]
+    }
+]

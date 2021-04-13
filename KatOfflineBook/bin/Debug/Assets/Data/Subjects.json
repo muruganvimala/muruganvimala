@@ -1,0 +1,49 @@
+[{
+  "_id":  "600a61654023ca03ccc4c811", 
+  "variableName": "Bio - Botany",
+  "coverImage":"2020_bio-botany.PNG"
+},{
+  "_id":  "600a636f4023ca03ccc4c815", 
+  "variableName": "தமிழ்",
+  "coverImage":"2020_தமிழ்.PNG"
+},{
+  "_id":  "600a64cf4023ca03ccc4c818",
+  "variableName": "General English",
+  "coverImage":"2020_English.jpg"
+},{
+  "_id":  "600a64e84023ca03ccc4c819", 
+  "variableName": "Mathematics",
+  "coverImage":"2020_math.jpg"
+},{
+  "_id":  "600a65004023ca03ccc4c81a", 
+  "variableName": "Physics",
+  "coverImage":"2020_physics.PNG"
+},{
+  "_id":  "600a65164023ca03ccc4c81c", 
+  "variableName": "Chemistry",
+  "coverImage":"2020_Chemistry.jpg"
+},{
+  "_id":  "600a65304023ca03ccc4c81d", 
+  "variableName": "Computer Science",
+  "coverImage":"2020_Computer_Science.jpg"
+},{
+  "_id":  "600a659e2f121c0b94991b3f",
+  "variableName": "Bio - Zoology",
+  "coverImage":"2020_Biology.jpg"
+},{
+  "_id":  "600a65c72f121c0b94991b40",
+  "variableName": "Accountancy",
+  "coverImage":"2020_Accountancy.jpg"
+},{
+  "_id":  "600a65ef2f121c0b94991b41", 
+  "variableName": "Economics",
+  "coverImage":"2020_Economics.jpg"
+},{
+  "_id":  "600a661c2f121c0b94991b42",
+  "variableName": "Commerce",
+  "coverImage":"2020_Commerce.jpg"
+},{
+  "_id":  "600a663e2f121c0b94991b43",
+  "variableName": "Business Maths and Statistics",
+  "coverImage":"2020_Business_Maths_and_Statistics.jpg"
+}]
